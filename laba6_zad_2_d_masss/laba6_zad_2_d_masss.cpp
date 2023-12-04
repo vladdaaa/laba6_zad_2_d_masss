@@ -24,8 +24,6 @@ int main()
     int** array;
     array = new int* [M];
     for (size_t i = 0; i < M; i++) {
-        // Выделение памяти под строки матрицы
-        // последний элемент массива - сумма оценок
         array[i] = new int[N];
     }
 
